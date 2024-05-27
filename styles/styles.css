@@ -116,3 +116,15 @@
 {
     font-size: 1.25em;
 }
+
+.mmk-interactive-images
+{
+    border-radius: 20px;
+}
+
+.mmk-interactive-images:hover
+{
+    border-radius: 40px;
+
+    opacity: 0.25;
+}
