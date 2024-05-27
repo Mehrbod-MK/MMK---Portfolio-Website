@@ -1,9 +1,80 @@
 *
 {
     scroll-behavior: smooth;
+
+    margin: 0;
+    padding: 5px;
+
+    transition: all 0.5s;
 }
 
 .navbar li
 {
     margin: 0px 5px;
+}
+
+.mmk-section-aboutme
+{
+    border: 2px solid lightgray;
+
+    padding: 30px;
+    margin: 50px;
+
+    border-radius: 20px;
+
+    display: flex;
+    flex-direction: row;
+
+    justify-content: space-around;
+    align-items: center;
+}
+
+.mmk-section-aboutme .mmk-aboutme-texts
+{
+    width: 100%;
+
+    cursor: default;
+}
+
+.mmk-section-aboutme .mmk-aboutme-image
+{
+    border-radius: 40px;
+
+    width: 75%;
+}
+
+.mmk-section-aboutme .mmk-aboutme-image:hover
+{
+    width: 80%;
+}
+
+.mmk-section-aboutme .mmk-aboutme-image-div
+{
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: end;
+
+    flex-direction: row;
+}
+
+@media screen and (max-width: 855px) {
+    .mmk-section-aboutme
+    {
+        flex-direction: column;
+
+        margin: 20px;
+    }
+
+    .mmk-section-aboutme .mmk-aboutme-image-div
+    {
+        justify-content: center;
+    }
+
+    .mmk-section-aboutme .mmk-aboutme-image
+    {
+        width: 95%;
+    }
 }
